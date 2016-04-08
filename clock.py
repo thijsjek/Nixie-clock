@@ -65,7 +65,7 @@ class Nixie:
         # Shift a decimal value into the register
         str = "%0*d" % (self.digits, value)
         for digit in str:
-            self.shift_digit(int(digit))
+        self.shift_digit(int(digit))
         
 	self.transfer_latch() 
 
