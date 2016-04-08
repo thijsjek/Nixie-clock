@@ -1,3 +1,8 @@
+"""
+Original from http://www.smbaker.com/raspberry-pi-nixie-tube-clock-prototype
+
+Adjusted by Thijs Kanters on https://thijskanters.wordpress.com
+"""
 import RPi.GPIO as GPIO 
 import time 
 import datetime
